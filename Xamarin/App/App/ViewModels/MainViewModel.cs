@@ -24,7 +24,9 @@
         #endregion
 
         #region Singleton
-        private static MainViewModel instance; public static MainViewModel GetInstance()
+        private static MainViewModel instance;
+
+        public static MainViewModel GetInstance()
         {
             if (instance == null)
             {
