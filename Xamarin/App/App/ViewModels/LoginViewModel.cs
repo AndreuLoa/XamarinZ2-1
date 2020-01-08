@@ -145,9 +145,6 @@
         }
         #endregion
 
-        public LoginViewModel()
-        {
-
-        }
+        
     }
 }
